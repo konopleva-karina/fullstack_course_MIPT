@@ -1,0 +1,13 @@
+#avatarBox {
+    top: 15vh;
+    left: 10vh;
+    position: fixed;
+}
+
+#person {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 25vh;
+    width: 25vh;
+}

@@ -1,0 +1,38 @@
+.contentBox {
+    position: fixed;
+    top: 10vh;
+}
+.studentInfoBox {
+    position: relative;
+    top: 10vh;
+    left: 50vh;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.userInfo {
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.additionalInfo {
+    position: relative;
+    top: 1vh;
+    font-size: 2vh;
+    font-style: italic;
+}
+
+
+.exitButton {
+    position: relative;
+    top: 34vh;
+    left: 10vh;
+    height: 5vh;
+    border: 10px;
+    width: 15vh;
+    background-color: rgb(228, 228, 228);
+    border: 2px;
+    border-color: rgb(90, 87, 87);
+    font-size: 2vh;
+    color: rgb(27, 25, 25);
+    
+}

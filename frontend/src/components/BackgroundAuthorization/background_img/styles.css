@@ -1,0 +1,7 @@
+.background_img {
+    filter: blur(5px);
+}
+
+#pool {
+    margin-top: -40vh;
+}

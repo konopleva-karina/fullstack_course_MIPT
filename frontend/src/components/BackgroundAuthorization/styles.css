@@ -1,0 +1,46 @@
+#box {
+    position:fixed;
+    width: 100%;
+    left: 0;
+    top: 8vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    position: fixed;
+    font-size: large;
+    color: white;
+    justify-content: center;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.button{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#entryButton {
+    background-color: #32CD32;
+    height: 4vh;
+    position: fixed;
+    top: 55vh;
+    border-radius: 3vh;
+    border:none;
+    display: inline-block;
+    left: 45%;
+}
+
+#title {
+    margin: auto;
+    top: 30vh;
+    /*text-align: center;*/
+    display: inline-block;
+    font-size: 5vh;
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+}

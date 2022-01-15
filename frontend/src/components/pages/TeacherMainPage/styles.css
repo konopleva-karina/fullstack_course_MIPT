@@ -1,0 +1,39 @@
+#teacherAPI {
+    position: absolute;
+    top: 20vh;
+    box-sizing: border-box;
+    display: grid;
+    position:fixed;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    position: relative;
+    padding: 10vh;
+    vertical-align: center;
+}
+
+.status {
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.addVisit {
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.teacher_button {
+    position: relative;
+    top: 3vh;
+    width: 30vh;
+    height: 5vh;
+    border: 0;
+    font-size: large;
+    background-color: rgb(59, 129, 221);
+    color: white;
+}
