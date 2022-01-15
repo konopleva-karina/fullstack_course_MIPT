@@ -123,16 +123,16 @@ export const ModalWindow = ({ visible, setVisible = () => { } }) => {
 
             >
 
-                    <Form.Item name="subject_id" label="Номер предмета">
+                    <Form.Item name="subject_id" label="Название предмета">
                         <Input autoComplete="false" autoFocus />
                     </Form.Item>
                     <Form.Item name="data" label="Дата">
                         <Input autoComplete="false" autoFocus />
                     </Form.Item>
-                    <Form.Item name="student_id" label="Номер студента">
+                    <Form.Item name="student_id" label="ФИО студента">
                         <Input autoComplete="false" autoFocus />
                     </Form.Item>
-                    <Form.Item name="teacher_id" label="Номер преподавателя">
+                    <Form.Item name="teacher_id" label="ФИО преподавателя">
                         <Input autoComplete="false" autoFocus />
                     </Form.Item>
             

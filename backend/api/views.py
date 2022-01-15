@@ -103,9 +103,9 @@ class AddVisit(generics.CreateAPIView):
         student_id = request.data["student_id"]
         teacher_id = request.data["teacher_id"]
 
-        subject = Subject.objects.filter(id=subject_id).first()
-        student = Student.objects.filter(id=student_id).first()
-        teacher = Teacher.objects.filter(id=teacher_id).first()
+        subject = Subject.objects.filter(name=subject_id).first()
+        student = Student.objects.filter(fio=student_id).first()
+        teacher = Teacher.objects.filter(fio=teacher_id).first()
 
         new_visit = Visit.objects.create(subject_id=subject, data=data, student_id=student, teacher_id=teacher)
         new_visit.save()
